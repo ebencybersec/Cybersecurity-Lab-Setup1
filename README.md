@@ -151,7 +151,9 @@ The Kali Linux virtual machine was assigned:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](3-screenshot-attached-kali-linux-to-nat-network.png)
+![](4-screenshot-kali-linux.png)
+
 A shared folder was also configured to allow files to be transferred between the host operating system and the Kali Linux virtual machine.
 
 
