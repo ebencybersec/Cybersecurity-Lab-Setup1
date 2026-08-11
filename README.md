@@ -174,7 +174,7 @@ DNS: 8.8.8.8
 
 Using a consistent IP address makes it easier to identify and reference the Kali Linux machine during subsequent laboratory exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](5-screenshot-kali-network-settings.png)
 
 ---
 
