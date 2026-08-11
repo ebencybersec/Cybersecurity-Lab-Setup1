@@ -205,7 +205,6 @@ If a future cybersecurity exercise modifies the system configuration or causes a
 | Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
 | Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
 | Verify Nmap                | `nmap --version`                | Nmap version displayed          |
-| Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
 
 ### Example Results
 
