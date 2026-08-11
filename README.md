@@ -234,25 +234,30 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 
 The network connection was then restarted/rebooted and connectivity was tested again.
 
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
-
 ---
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
+## Problem 2. Incorrect Date and Time
 
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
+After installing Kali Linux, the system date and time were not set to the correct local time.
 
-The issue was resolved by:
+I checked the current time using:
 
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
+```bash
+timedatectl
+```
+Since the system was being used in Ghana, I configured the correct timezone using:
 
-After enabling virtualization, the VM started successfully.
+```bash
+sudo timedatectl set-timezone Africa/Accra
+```
 
+I then verified the configuration using:
+
+```bash
+timedatectl
+```
+
+The Kali Linux system was successfully configured to use the correct Ghana timezone.
 
 ---
 
