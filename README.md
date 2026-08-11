@@ -185,10 +185,11 @@ The snapshot was named:
 Clean Kali - Network Setup
 ```
 
-TThis snapshot serves as a clean baseline for the laboratory.
+This snapshot serves as a clean baseline for the laboratory.
 
 If a future cybersecurity exercise modifies the system configuration or causes an unexpected problem, the Kali Linux VM can be restored to this baseline and the laboratory setup can be reused.
 
+![](5-screenshot-kali-snapshot.png)
 
 ---
 
